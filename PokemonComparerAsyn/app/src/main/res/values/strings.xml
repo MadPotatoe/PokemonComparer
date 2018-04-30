@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">PokeComparer</string>
+    <string name="action_add">About</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_buscar"></string>
+</resources>

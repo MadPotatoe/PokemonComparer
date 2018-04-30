@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pikbg">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="16dp">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/empty"
+            android:id="@+id/v1_2"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/vs"
+            />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/empty"
+            android:id="@+id/v2_2"
+            />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="9dp"
+        android:orientation="vertical"
+        android:stretchColumns="1"
+        >
+        <TableRow >
+            <TextView android:text="HP"
+                android:layout_span="2"
+                android:textSize="25dp"
+                android:layout_gravity="center"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_gravity="center"
+                android:text=""
+                android:id="@+id/p1hp"
+                android:textSize="25dp"
+                android:paddingLeft="15dp"/>
+            <TextView
+                android:text=""
+                android:id="@+id/p2hp"
+                android:paddingRight="25dp"
+                android:textSize="25dp"
+                android:gravity="right"/>
+        </TableRow>
+        <TableRow >
+            <TextView android:text="Attack"
+                android:layout_span="2"
+                android:textSize="25dp"
+                android:layout_gravity="center"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="25dp"
+                android:id="@+id/p1att"
+                android:paddingLeft="15dp"/>
+            <TextView
+                android:text=""
+                android:id="@+id/p2att"
+                android:gravity="right"
+                android:textSize="25dp"
+                android:paddingRight="25dp"/>
+        </TableRow>
+        <TableRow >
+            <TextView android:text="Defense"
+                android:textSize="25dp"
+                android:layout_span="2"
+                android:layout_gravity="center"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="25dp"
+                android:id="@+id/p1def"
+                android:paddingLeft="15dp"/>
+            <TextView
+                android:text=""
+                android:id="@+id/p2def"
+                android:textSize="25dp"
+                android:gravity="right"
+                android:paddingRight="25dp"/>
+        </TableRow>
+        <TableRow >
+            <TextView android:text="Sp.Attack"
+                android:layout_span="2"
+                android:textSize="25dp"
+                android:layout_gravity="center"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="25dp"
+                android:id="@+id/p1spA"
+                android:paddingLeft="15dp"/>
+            <TextView
+                android:text=""
+                android:id="@+id/p2spA"
+                android:gravity="right"
+                android:textSize="25dp"
+                android:paddingRight="25dp"/>
+        </TableRow>
+        <TableRow >
+            <TextView android:text="Sp.Defense"
+                android:layout_span="2"
+                android:textSize="25dp"
+                android:layout_gravity="center"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="25dp"
+                android:id="@+id/p1spD"
+                android:paddingLeft="15dp"/>
+            <TextView
+                android:text=""
+                android:id="@+id/p2spD"
+                android:textSize="25dp"
+                android:gravity="right"
+                android:paddingRight="25dp"/>
+        </TableRow>
+        <TableRow >
+            <TextView android:text="Speed"
+                android:layout_span="2"
+                android:textSize="25dp"
+                android:layout_gravity="center"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="25dp"
+                android:id="@+id/p1speed"
+                android:paddingLeft="15dp"/>
+            <TextView
+                android:text=""
+                android:id="@+id/p2speed"
+                android:gravity="right"
+                android:textSize="25dp"
+                android:paddingRight="25dp"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
